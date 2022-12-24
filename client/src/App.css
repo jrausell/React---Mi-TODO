@@ -1,0 +1,29 @@
+/****/
+.todo{
+  padding: 0.3em;
+  margin-bottom: 0.3em;
+  border-radius: 0.3em;
+  border: 1px solid #CCC;
+}
+.todo:HOVER{
+  border-color: #000;
+  background-color: rgba(0,0,0,0.05);
+}
+.todo__active{
+  border-color: #000;
+}
+
+.todoItem:HOVER .todoItem__delete,
+.todoSubtask:HOVER .todoSubtask__delete{
+  display: inline !important;
+}
+
+.z-10{
+  z-index: 10;
+}
+.z-20{
+  z-index: 20;
+}
+.z-30{
+  z-index: 30;
+}
